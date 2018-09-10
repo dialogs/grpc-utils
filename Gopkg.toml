@@ -1,14 +1,10 @@
 [[constraint]]
-  branch = "master"
-  name = "github.com/grpc-ecosystem/go-grpc-middleware"
-
-[[constraint]]
   name = "github.com/sirupsen/logrus"
-  version = "1.0.4"
+  version = "~1.0.4"
 
 [[constraint]]
   name = "google.golang.org/grpc"
-  version = "1.14.0"
+  version = "~1.14.0"
 
 [prune]
   go-tests = true
